@@ -1,0 +1,104 @@
+COMMERCE LAYER SWOT
+
+PLATFORM:
+
+STRENGTHS
+  - Very quick and painless to get up and running 
+  - Sanity & Commerce Layer code lives in same repo
+  - Single command gets storefront/cms running locally
+
+WEAKNESSES
+  - Running things locally does not work (auth error)
+  - Starter not complete (PDPs don't exist), can't checkout etc
+  - Codebase is very opinionated and confusing
+  - Not actual best of breed approach
+
+OPPORTUNITIES
+  - Improve on their next starter
+  - More clearly separate commerce code from storefront code
+
+THREATS
+  - Vendor lock-in (other than CMS) means it's really an all or nothing solution
+  - No app ecosystem exists for returns/etc
+
+
+DOCS/SUPPORT:
+
+STRENGTHS
+  - Well organized, clean, and concise
+  - Internal objects & their attributes spelled out in detail (ex: Addresses)
+  - Chat support offered in dashboard - received response in < 10 min
+
+WEAKNESSES
+  - eCommerce topics are complex and far less approachable than in Shopify
+  - No examples of how to integrate CMS's or 3 parties
+  - Examples are only shown as CURL commands
+  - No examples of how to actually plug into a storefront codebase/framework
+
+OPPORTUNITIES
+  - Include more full getting started examples integrating a CMS
+  - Show patterns for integrating into Storefont
+  - Provide examples of actual projects/snippets for Nuxt/Next
+  - Encourage creation of themes since eCommerce platform does not change
+
+THREATS
+  - Ease of use/understanding is major barrier
+  - Could lose clients to platforms that are more approachable
+
+
+NACELLE SWOT
+
+PLATFORM:
+
+STRENGTHS
+  - Better suited to glue pieces of headless backend together
+  - Truly best of breed / platform agnostic
+  - Direct integrations with 3rd party CMS'
+  - Better performance (fewer required API calls per page)
+
+WEAKNESSES
+  - Unclear of what Nacelle owns vs what merchants own (frontend, etc)
+  - Starters encourage merchants to view Nuxt/Next as core piece of the product
+  - Setup more involved and time consuming (esp for clients new to commerce)
+  - More difficult for agencies to create reusable themes that support multiple eCommerce platforms 
+
+OPPORTUNITIES
+  - Create more separation between starters and Nacelle platform
+  - Easier adoption since it plugs into existing systems that may be at play (Shopify)
+  - Since it's truly best of breed easier to create beneficial partnerships
+  - Make the onboarding process more automated
+
+THREATS
+  - Internationalization of commerce layer feels more complete
+
+
+DOCS/SUPPORT:
+
+STRENGTHS
+  - Includes more applicable code snippets
+  - Includes examples of integrating 3rd parties
+  - References frameworks and provides solutions based on those
+  - Responsive/dedicated support via Slack
+
+WEAKNESSES
+  - Not that easy to navigate, some areas feel like duplication
+  - Drifts between agnostic examples, and framework specific examples
+  - Missing component explanations for starters
+  - No simple support integration in dashboard
+  - Dashboard feels less complete
+
+OPPORTUNITIES
+  - Making docs only about backend, and frontend data fetching
+  - Documenting all starter specific code in repo Readme for better separation
+  - Better present best of breed approach in docs
+  - Streamline getting started so the steps are far simpler
+  - Possible for commerce layer & Nacelle to work in tandem???
+
+THREATS
+  - Limitations from eCommerce platforms could drive clients to commerce layer
+  - Internationalization not entirely clear in dashboard
+  - Confusing why link lists are in dashboard & not CMS
+
+
+
+
